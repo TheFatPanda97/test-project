@@ -6,7 +6,7 @@ const App = () => {
 
   useEffect(() => {
     (async () => {
-      const res = await axios.get('https://test-project-frontend.netlify.app/');
+      const res = await axios.get('https://test-project-backend.herokuapp.com/');
       setTitle(res.data);
     })();
   }, []);
