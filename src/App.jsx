@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
       <h1>{title}</h1>
-      <p>This is a test aragraph</p>
+      <p>This is not a test paragraph</p>
     </div>
   );
 };
