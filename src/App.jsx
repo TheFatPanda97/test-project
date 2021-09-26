@@ -6,7 +6,7 @@ const App = () => {
 
   useEffect(() => {
     (async () => {
-      const res = await axios.get('http://localhost:8080');
+      const res = await axios.get('https://test-project-frontend.netlify.app/');
       setTitle(res.data);
     })();
   }, []);
